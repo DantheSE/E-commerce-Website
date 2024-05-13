@@ -9,6 +9,18 @@ body {
   font-family: Kumbh Sans;
 }
 
+
+ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+}
+
+p{
+  font-size: 16px;
+}
+
 .nav-bar {
   border-bottom: 1px solid rgb(187, 186, 186);
   padding: 15px;
@@ -28,12 +40,7 @@ body {
   font-size: 20px;
 }
 
-ul {
-  display: flex;
-  gap: 30px;
-  list-style: none;
-  margin: 0;
-}
+
 
 .links a {
   color: black;
@@ -47,9 +54,38 @@ ul {
   align-items: center;
   gap: 30px;
 }
+
 .profile-pic {
   height: auto;
   width: 50px;
+}
+
+.product-section {
+  display: flex;
+  margin-top: 75px;
+}
+
+#image-viewer{
+  padding-right: 100px;
+  padding-left: 50px;
+}
+
+.image-options {
+  display: flex;
+  margin-top: 23px;
+  justify-content: space-between;
+}
+
+.product-image {
+  height: auto;
+  width: 380px;
+  border-radius: 10px;
+}
+
+.thumbnails {
+  height: auto;
+  width: 80px;
+  border-radius: 10px;
 }
 
 .attribution {
