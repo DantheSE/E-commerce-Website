@@ -5,17 +5,25 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 0;
+  padding: 0 130px;
   font-family: Kumbh Sans;
 }
 
 .nav-bar {
+  border-bottom: 1px solid rgb(187, 186, 186);
+  padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#logo {
+.nav-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
   font-weight: 700;
   font-size: 20px;
 }
@@ -31,6 +39,17 @@ ul {
   color: black;
   font-size: 16px;
   text-decoration: none;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.profile-pic {
+  height: auto;
+  width: 50px;
 }
 
 .attribution {
