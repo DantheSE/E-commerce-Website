@@ -167,10 +167,7 @@ p {
   background-color: hsl(223, 64%, 98%);
 }
 
-
-.add{
-  justify-content: center;
-  align-items: center;
+.add {
   padding: 15px 70px;
   color: white;
   background-color: hsl(26, 100%, 55%);
@@ -178,7 +175,13 @@ p {
   border-radius: 10px;
 }
 
-
+.cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
 
 .attribution {
   font-size: 11px;
