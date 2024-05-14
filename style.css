@@ -3,6 +3,7 @@
 body {
   color: black;
   display: flex;
+  flex: 1;
   flex-direction: column;
   margin: 0;
   padding: 0 130px;
@@ -40,9 +41,13 @@ p {
 }
 
 .links a {
-  color: black;
+  color: hsl(219, 9%, 45%);
   font-size: 16px;
   text-decoration: none;
+}
+
+.links a:hover {
+  color: black;
 }
 
 .nav-right {
@@ -52,9 +57,19 @@ p {
   gap: 30px;
 }
 
+.nav-right svg.cart-container:hover {
+  cursor: pointer;
+}
+
 .profile-pic {
   height: auto;
   width: 50px;
+}
+
+.profile-pic:hover {
+  cursor: pointer;
+  border: solid 2px hsl(26, 100%, 55%);
+  border-radius: 26px;
 }
 
 .product-section {
@@ -72,6 +87,11 @@ p {
   display: flex;
   margin-top: 23px;
   justify-content: space-between;
+}
+
+.image-options img:hover{
+  cursor: pointer;
+  opacity: 50%;
 }
 
 .product-image {
@@ -175,12 +195,22 @@ p {
   border-radius: 10px;
 }
 
+.add:hover {
+  cursor: pointer;
+  background-color: hsl(25, 88%, 67%);
+}
+
 .cart-container {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   gap: 10px;
+}
+
+.count-tracker svg:hover {
+  cursor: pointer;
+  /* color: hsl(25, 100%, 94%); */
 }
 
 .attribution {
