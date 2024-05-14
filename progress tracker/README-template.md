@@ -59,6 +59,9 @@ tasks for today:
 -add active states
 -implement the counter part of the cart
 
+extra:
+Implement the cart design and item addition
+
 ### Built with
 
 - Semantic HTML5 markup
