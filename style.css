@@ -89,7 +89,7 @@ p {
   justify-content: space-between;
 }
 
-.image-options img:hover{
+.image-options img:hover {
   cursor: pointer;
   opacity: 50%;
 }
