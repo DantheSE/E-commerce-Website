@@ -88,8 +88,32 @@ p {
   padding: 60px 30px;
 }
 
-.cart-dropdown:hover .dropdown-content {
+.cart-dropdown:hover .dropdown-content-empty {
   display: block;
+}
+
+.dropdown-content-filled {
+  display: flex;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+  position: absolute;
+  top: 65px;
+  right: 190px;
+  width: 290px;
+  height: 200px;
+
+  z-index: 2;
+}
+
+.cart-dropdown:hover .dropdown-content-filled {
+  display: block;
+}
+
+.cart-dropdown img {
+  height: 50px;
+  width: 50px;
 }
 
 .profile-pic {
